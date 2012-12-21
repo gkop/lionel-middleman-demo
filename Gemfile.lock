@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/gkop/lionel.git
-  revision: 6457910d0e8ceac9d3642714cd8b46eecc3d68ef
+  revision: 3d8d694a45af634b524d0cc411d3fac34dbd34c5
   branch: master
   specs:
-    lionel (0.0.1)
+    lionel (0.0.2)
       nullobject
 
 GIT
