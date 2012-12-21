@@ -47,6 +47,9 @@ GEM
       url_mount (~> 0.2.1)
     i18n (0.6.1)
     journey (1.0.4)
+    jquery-ui-rails (2.0.2)
+      jquery-rails
+      railties (>= 3.1.0)
     json (1.7.5)
     lionel (0.0.1)
       nullobject
@@ -143,5 +146,6 @@ PLATFORMS
 
 DEPENDENCIES
   jquery-rails!
+  jquery-ui-rails
   lionel
   middleman (~> 3.0.7)
