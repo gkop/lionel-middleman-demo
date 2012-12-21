@@ -1,3 +1,6 @@
 /*
  *= require jquery.ui.all
+ *
+ * Can't require this due to its dependence on Rails' asset_path
+ * require jquery.fileupload-ui
  */
