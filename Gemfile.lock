@@ -48,6 +48,8 @@ GEM
     i18n (0.6.1)
     journey (1.0.4)
     json (1.7.5)
+    lionel (0.0.1)
+      nullobject
     listen (0.5.3)
     maruku (0.6.1)
       syntax (>= 1.0.0)
@@ -82,6 +84,7 @@ GEM
       sprockets (~> 2.1, < 2.5)
       sprockets-sass (~> 0.9.0)
     multi_json (1.5.0)
+    nullobject (0.0.5)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -140,4 +143,5 @@ PLATFORMS
 
 DEPENDENCIES
   jquery-rails!
+  lionel
   middleman (~> 3.0.7)
