@@ -1,7 +1,4 @@
 $ ->
-  # backbone-rails
-  $("table#test-cases tbody").append("<tr><td>Backbone.js</td><td>backbone-rails</td><td>#{Backbone.VERSION}</td></tr>")
-
   # jquery-rails
   $("table#test-cases tbody").append("<tr><td>jQuery</td><td>jquery-rails</td><td>#{$().jquery}</td></tr>")
 

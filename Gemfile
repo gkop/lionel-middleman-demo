@@ -10,6 +10,5 @@ gem "jquery-rails", :github => "rails/jquery-rails"
 
 gem "jquery-ui-rails"
 gem "underscore-rails"
-gem "backbone-rails"
 gem "knockoutjs-rails"
 gem "jquery-fileupload-rails"
