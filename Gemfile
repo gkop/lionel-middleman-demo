@@ -7,3 +7,4 @@ gem "lionel"
 gem "jquery-rails", :github => "rails/jquery-rails"
 
 gem "jquery-ui-rails"
+gem "underscore-rails"

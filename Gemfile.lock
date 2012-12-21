@@ -138,6 +138,7 @@ GEM
     uglifier (1.2.7)
       execjs (>= 0.3.0)
       multi_json (~> 1.3)
+    underscore-rails (1.4.3)
     url_mount (0.2.1)
       rack
 
@@ -149,3 +150,4 @@ DEPENDENCIES
   jquery-ui-rails
   lionel
   middleman (~> 3.0.7)
+  underscore-rails
