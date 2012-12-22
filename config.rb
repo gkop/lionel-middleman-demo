@@ -53,6 +53,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -65,7 +66,14 @@ configure :build do
   # activate :cache_buster
 
   # Use relative URLs
-  # activate :relative_assets
+
+  activate :relative_assets
+
+  # gotta activate lionel after relative_assets in order to monkey patch
+  # relative_assets :(
+  activate :lionel do |l|
+    l.engines_with_images << "jquery-ui-rails"
+  end
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
@@ -76,4 +84,8 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
-activate :lionel
+configure :development do
+  activate :lionel do |l|
+    l.engines_with_images << "jquery-ui-rails"
+  end
+end
